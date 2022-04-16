@@ -1,0 +1,12 @@
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\bin\Debug\net5.0\Data.deps.json
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\bin\Debug\net5.0\Data.dll
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\bin\Debug\net5.0\ref\Data.dll
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\bin\Debug\net5.0\Data.pdb
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\Data.dll
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\ref\Data.dll
+C:\Users\nzrce\source\repos\CaseEnUyhun\Data\obj\Debug\net5.0\Data.pdb

@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <p>İşin Tamamlanma Süresi Minimum <strong style="color:red;"> @ViewBag.hafta hafta </strong></p>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                1.Devoloper Atanan Görevler
+                @foreach (var item in ViewBag.dev1)
+                {
+                    <hr />
+                    if (item.Level == 0)
+                    {
+                        <p style="color:red;">@item.Name</p>
+                    }
+                    else
+                    {
+                        <p style="color:black;">@item.Name</p>
+                    }
+                    if (item.Level > 0)
+                    {
+                        <p>Zorluk:@item.Level</p>
+                        <p>Süre:@item.Time</p>
+                    }
+                }
+            </div>
+            <div class="col-sm">
+                2.Devoloper Atanan Görevler
+
+                @foreach (var item in ViewBag.dev2)
+                {
+                    <hr />
+                    if (item.Level == 0)
+                    {
+                        <p style="color:red;">@item.Name</p>
+                    }
+                    else
+                    {
+                        <p style="color:black;">@item.Name</p>
+                    }
+                    if (item.Level > 0)
+                    {
+                        <p>Zorluk:@item.Level</p>
+                        <p>Süre:@item.Time</p>
+                    }
+
+                }
+            </div>
+            <div class="col-sm">
+                3.Devoloper Atanan Görevler
+                @foreach (var item in ViewBag.dev3)
+                {
+
+                    <hr />
+                    if (item.Level == 0)
+                    {
+                        <p style="color:red;">@item.Name</p>
+                    }
+                    else
+                    {
+                        <p style="color:black;">@item.Name</p>
+                    }
+                    if (item.Level > 0)
+                    {
+                        <p>Zorluk:@item.Level</p>
+                        <p>Süre:@item.Time</p>
+                    }
+
+                }
+            </div>
+            <div class="col-sm">
+                4.Devoloper Atanan Görevler
+                @foreach (var item in ViewBag.dev4)
+                {
+
+                    <hr />
+                    if (item.Level == 0)
+                    {
+                        <p style="color:red;">@item.Name</p>
+                    }
+                    else
+                    {
+                        <p style="color:black;">@item.Name</p>
+                    }
+                    if (item.Level > 0)
+                    {
+                        <p>Zorluk:@item.Level</p>
+                        <p>Süre:@item.Time</p>
+                    }
+
+                }
+            </div>
+            <div class="col-sm">
+                5.Devoloper Atanan Görevler
+                @foreach (var item in ViewBag.dev5)
+                {
+
+                    <hr />
+                    if (item.Level == 0)
+                    {
+                        <p style="color:red;">@item.Name</p>
+                    }
+                    else
+                    {
+                        <p style="color:black;">@item.Name</p>
+                    }
+                    if (item.Level > 0)
+                    {
+                        <p>Zorluk:@item.Level</p>
+                        <p>Süre:@item.Time</p>
+                    }
+                }
+            </div>
+        </div>
+    </div>
